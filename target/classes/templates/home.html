@@ -1,0 +1,45 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>CoronaVirus Tracker</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <link crossorigin="anonymous"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <br><br>
+    <h1>Coronavirus Tracker Application</h1>
+    <p>
+        This application lists the current number of cases reported according to the global count.
+    </p>
+    <div class="jumbotron">
+        <h1 class="display-2" th:text="${totalReportedCases}"></h1>
+        <p class="lead">Total Cases</p>
+        <hr class="my-4">
+        <p>
+            <span>New Cases Reported Today:</span>
+        <h2 th:text="${totalNewCases}"></h2>
+        </p>
+    </div>
+
+    <table class="table">
+        <tr>
+            <th>Country</th>
+            <th>Province/State</th> <!-- Added -->
+            <th>Total Cases</th>
+            <th>New Cases</th>
+        </tr>
+        <tr th:each="locationStat : ${locationStats}">
+            <td th:text="${locationStat.country}">0</td>
+            <td th:text="${locationStat.province != null && locationStat.province != '' ? locationStat.province : '-'}">
+                -
+            </td>
+            <td th:text="${locationStat.latestTotalCases}">0</td>
+            <td th:text="${locationStat.newCases}">0</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
