@@ -28,7 +28,8 @@ A **Spring Boot-based** COVID-19 tracker that fetches live coronavirus data and 
 
 ## 📸 Screenshots
 
-![image](https://github.com/user-attachments/assets/7616fcd5-cb9f-4004-a5fa-f667a18a50df)
+![image](https://github.com/user-attachments/assets/393093e8-f8a4-47ed-9384-7156c4a5b6da)
+
 
 ---
 
