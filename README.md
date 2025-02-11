@@ -28,7 +28,7 @@ A **Spring Boot-based** COVID-19 tracker that fetches live coronavirus data and 
 
 ## 📸 Screenshots
 
-
+![image](https://github.com/user-attachments/assets/7616fcd5-cb9f-4004-a5fa-f667a18a50df)
 
 ---
 
@@ -40,8 +40,7 @@ A **Spring Boot-based** COVID-19 tracker that fetches live coronavirus data and 
 - Install **Maven**
 - Clone the repository:
   ```sh
-  git clone https://github.com/yourusername/corona-tracker.git
-  cd corona-tracker
+  [git clone https://github.com/yourusername/corona-tracker.git](https://github.com/MohammadYaseenSheikh/CoronaVirus-Tracker.git)
   ```
 
 ### 2️⃣ Build & Run
@@ -54,7 +53,7 @@ A **Spring Boot-based** COVID-19 tracker that fetches live coronavirus data and 
   ```sh
   mvn spring-boot:run
   ```
-- Open in browser: `http://localhost:8080`
+- Open in browser: `http://localhost:8082`
 
 ---
 
@@ -90,9 +89,9 @@ Contributions are welcome! Feel free to submit a PR or open an issue.
 
 ## 👨‍💻 Author
 
-👤 **Your Name**\
-📧 [your.email@example.com](mailto\:your.email@example.com)\
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
+👤 **Mohammad Yaseen Sheikh**\
+📧 [official.yaseen.sheikh@gmail.com](mailto\:official.yaseen.sheikh@gmail.com)\
+🔗 [LinkedIn](https://www.linkedin.com/in/mohammad-yaseen-sheikh-55484915a/)
 
 ---
 
